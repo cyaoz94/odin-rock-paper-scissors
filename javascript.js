@@ -83,6 +83,9 @@ function playGame() {
     console.log(
       `Human score: ${humanScore}, Computer score: ${computerScore}. You tied!`
     );
-    
   }
+
+  // reset score when one game is finished
+  computerScore = 0;
+  humanScore = 0;
 }
